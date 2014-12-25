@@ -35,7 +35,7 @@ var venues;
     v: '20131103'
   });
 
-  var listID = '5211139711d2019ea4f04f89';
+  var listID = '549b5674498ebfbecda12e52';
 
   request('https://api.foursquare.com/v2/lists/' + listID + '/?' + query, function (error, response, body) {
     venues = _.map(JSON.parse(body).response.list.listItems.items, function (item) {
