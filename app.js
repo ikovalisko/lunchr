@@ -23,7 +23,7 @@ var intros = [
   'Aren’t you in the mood for',
   'Maybe',
   'Been a while since you’ve gone to',
-  'I think Brandon really wants'
+  'I think Ivan really wants'
 ];
 
 var venues;
